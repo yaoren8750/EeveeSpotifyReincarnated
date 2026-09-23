@@ -48,6 +48,7 @@ show_fallback_reasons = "显示回退原因";
 hide_lyrics_on_error = "错误时隐藏";
 hide_lyrics_on_error_description = "如果歌词加载失败，则删除歌词组件。";
 
+spicylyrics_description = "SpicyLyrics 使用 Spotify 自有令牌提供逐词同步歌词，无需额外配置。";
 romanized_lyrics = "罗马化歌词";
 romanized_lyrics_description = "显示中文、韩语和日语的罗马化歌词。";
 
@@ -142,7 +143,7 @@ true_shuffle_dec = "阻止 Spotify 免费版的智能随机播放将推荐曲目
 
 sponsorblock = "SponsorBlock (测试版)";
 appIcon = "应用图标";
-
+developer_note = "开发者备注";
 eevee_inline_subtitle_text = "补丁、歌词、定制和实验";
 
 // Debug

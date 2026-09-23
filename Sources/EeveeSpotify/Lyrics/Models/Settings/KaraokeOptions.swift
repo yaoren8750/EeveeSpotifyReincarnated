@@ -7,9 +7,9 @@ enum KaraokeTextAlignment: String, Codable, CaseIterable {
 
     var displayName: String {
         switch self {
-        case .leading: return "Left"
-        case .center: return "Center"
-        case .trailing: return "Right"
+        case .leading: return "左"
+        case .center: return "居中"
+        case .trailing: return "右"
         }
     }
 }

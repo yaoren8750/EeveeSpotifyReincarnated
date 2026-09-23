@@ -19,7 +19,7 @@ extension EeveeLyricsSettingsView {
             textField.placeholder = "---- Debug Info ---- [Device]: \(UIDevice.current.isIpad ? "iPad" : "iPhone")"
         }
         
-        alert.addAction(UIAlertAction(title: "Cancel".uiKitLocalized, style: .cancel) { _ in
+        alert.addAction(UIAlertAction(title: "取消".uiKitLocalized, style: .cancel) { _ in
             viewModel.lyricsSource = oldSource
         })
         
@@ -29,7 +29,7 @@ extension EeveeLyricsSettingsView {
             })
         }
 
-        alert.addAction(UIAlertAction(title: "OK".uiKitLocalized, style: .default) { _ in
+        alert.addAction(UIAlertAction(title: "确定".uiKitLocalized, style: .default) { _ in
             let text = alert.textFields!.first!.text!
             
             guard let token =

@@ -44,20 +44,20 @@ struct EeveeLyricsSettingsView: View {
 
     @ViewBuilder private func karaokeAppearanceSection() -> some View {
         Section {
-            Picker("Lyrics alignment", selection: $karaokeOptions.textAlignment) {
+            Picker("歌词对齐方式", selection: $karaokeOptions.textAlignment) {
                 ForEach(KaraokeTextAlignment.allCases, id: \.self) { alignment in
                     Text(alignment.displayName).tag(alignment)
                 }
             }
 
             Toggle(
-                "Reversed direction",
+                "反向滚动",
                 isOn: $karaokeOptions.reversedDirection
             )
         } header: {
-            Text("Word-Synced Lyrics")
+            Text("逐词同步歌词")
         } footer: {
-            Text("Reversed direction flows lines bottom-to-top instead of top-to-bottom, with the active line lower on screen.")
+            Text("反向模式会让歌词从下往上滚动，而不是从上往下滚动，同时当前歌词行会显示在屏幕下方。")
         }
     }
     

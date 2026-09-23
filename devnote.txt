@@ -1,3 +1,3 @@
-To ensure stability, always download official EeveeSpotifyReincarnated IPA files exclusively from our official Telegram channel (@compiledipas) or our official GitHub releases page.
+为确保使用稳定，请仅通过官方 Telegram 频道（@compiledipas）或官方 GitHub Releases 页面下载 EeveeSpotifyReincarnated IPA。
 
-Do not obtain IPAs from unauthorized sources such as moe.mohkg1017.pro, @iosdecrypted, @user_hidden_files, @tkdashen, @iosjumo, or @ioscrackvn. Stay safe!
+请勿使用来自非官方渠道的 IPA 文件，例如 moe.mohkg1017.pro、@iosdecrypted、@user_hidden_files、@tkdashen、@iosjumo 或 @ioscrackvn。请谨慎选择下载来源。
